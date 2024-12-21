@@ -1,0 +1,145 @@
+/* BASE FONT-SIZE FOR PROJECT */
+body {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: var(--lh-base);
+    color: var(--c-white);
+
+    @media (--min100) {
+        font-size: var(--fs-lg);
+        line-height: var(--lh-lg);
+    }
+}
+
+/* BASIC TEXT STYLING */
+strong {
+    font-weight: 700;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+a {
+    text-underline-offset: 4px;
+}
+
+a[href^='tel:'] {
+    text-decoration: none;
+}
+
+a,
+button {
+    color: var(--c-seance);
+    cursor: pointer;
+}
+
+/* HEADINGS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    overflow-wrap: break-word;
+    font-family: var(--ff-serif);
+    letter-spacing: -.5px;
+    word-break: break-word;
+    color: var(--c-seance);
+}
+
+h1,
+.h1,
+h2,
+.h2 {
+    font-weight: 300;
+
+    > p {
+        font-weight: 300;
+    }
+
+    /* always make sure bold is also italic */
+    strong {
+        font-style: italic;
+    }
+
+    /* alays make sure italic is also bold */
+    em {
+        font-weight: 700;
+    }
+}
+
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+.pretitle {
+    font-weight: 700;
+
+    > p {
+        font-weight: 700;
+    }
+}
+
+h1,
+.h1 {
+    font-size: var(--fs-5xl);
+    line-height: var(--lh-5xl);
+
+    @media (--min100) {
+        font-size: var(--fs-7xl);
+        line-height: var(--lh-7xl);
+    }
+}
+
+h2,
+.h2 {
+    font-size: var(--fs-4xl);
+    line-height: var(--lh-4xl);
+
+    @media (--min100) {
+        font-size: var(--fs-6xl);
+        line-height: var(--lh-6xl);
+    }
+}
+
+h3,
+.h3 {
+    font-size: var(--fs-3xl);
+    line-height: var(--lh-3xl);
+
+    @media (--min100) {
+        font-size: var(--fs-4xl);
+        line-height: var(--lh-4xl);
+    }
+}
+
+h4,
+.h4 {
+    font-size: var(--fs-xl);
+    line-height: var(--lh-xl);
+
+    @media (--min100) {
+        font-size: var(--fs-2xl);
+        line-height: var(--lh-2xl);
+    }
+}
+
+h5 {
+    font-size: var(--fs-xl);
+    line-height: var(--lh-xl);
+
+    @media (--min100) {
+        font-size: var(--fs-2xl);
+        line-height: var(--lh-2xl);
+    }
+}

@@ -1,7 +1,19 @@
-h1, h2, h3, h4, h5, h6 {
-    @apply font-heading;
-}
+/* TAILWIND BASE */
+@import 'tailwindcss/base';
 
-details summary::-webkit-details-marker {
-  display:none;
-}
+/* BASE */
+@import 'base/animations.css';
+@import 'base/variables.css';
+@import 'base/base.css';
+
+
+/* ELEMENTS */
+@import 'elements/base.css';
+@import 'elements/type.css';
+@import 'elements/button.css';
+
+/* COMPONENTS */
+@import 'tailwindcss/components';
+
+/* TAILWIND COMPONENTS, UTILITIES */
+@import 'tailwindcss/utilities';

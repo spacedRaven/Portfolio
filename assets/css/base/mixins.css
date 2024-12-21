@@ -1,0 +1,48 @@
+@define-mixin fill-w-h $position: absolute {
+    width: 100%;
+    height: 100%;
+    position: $position;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+}
+
+@define-mixin break-word {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+@define-mixin break-word-soft {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+@define-mixin center-x $position: absolute {
+    position: $position;
+    inset-inline-start: 50%;
+    transform: translateX(-50%);
+}
+
+@define-mixin center-x-y $position: absolute {
+    position: $position;
+    inset-block-start: 50%;
+    inset-inline-start: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* MEDIA QUERIES */
+@custom-media --min40 (min-width: 40em); /* min 640px */
+@custom-media --min48 (min-width: 48em); /* min 768px */
+@custom-media --min64 (min-width: 64em); /* min 1024px */
+@custom-media --min80 (min-width: 80em); /* min 1280px */
+@custom-media --min100 (min-width: 100em); /* min 1600px */
+@custom-media --min125 (min-width: 125em); /* min 2000px */
+@custom-media --max40 (max-width: 39.999em); /* max 639px */
+@custom-media --max48 (max-width: 47.999em); /* max 767px */
+@custom-media --max64 (max-width: 63.999em); /* max 1023px */
+@custom-media --max80 (max-width: 79.999em); /* max 1279px */
+@custom-media --max100 (max-width: 99.999em); /* max 1599px */
+@custom-media --max125 (max-width: 124.999em); /* max 1999px */
+@custom-media --ie (-ms-high-contrast: none), (-ms-high-contrast: active);

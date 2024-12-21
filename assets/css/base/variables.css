@@ -1,0 +1,63 @@
+:root {
+    /* stylelint-disable color-no-hex */
+
+    /* Colors */
+    --c-seance: #7a1cac;
+    --c-seance-700: #8b3bb6;
+    --c-seance-600: #9b55bf;
+    --c-seance-500: #aa6dc9;
+    --c-seance-400: #b985d2;
+    --c-seance-300: #c89ddb;
+    --c-seance-200: #eed3ff;
+    --c-seance-100: #f6e7ff;
+    --c-bay: #4b4376;
+    --c-hippie: #ae445a;
+    --c-bush: #e8bcb9;
+    --c-bunker: #1a1a1d;
+    --c-black: #000;
+    --c-white: #fff;
+    --c-succes: #44b895;
+    --c-error: #ef4141;
+    /* Greyscale */
+    --c-mine: #2f2f32;
+    --c-abbey: #454548;
+    --c-dust: #5d5d5f;
+    --c-boulder: #767678;
+    --c-mountain: #909091;
+
+    /* Font sizes */
+    --fs-xs: .75rem;
+    --fs-sm: .875rem;
+    --fs-base: 1rem; /* 16px */
+    --fs-lg: 1.125rem; /* 18px */
+    --fs-xl: 1.25rem; /* 20px */
+    --fs-2xl: 1.625rem; /* 26px */
+    --fs-3xl: 1.875rem; /* 30px */
+    --fs-4xl: 2.5rem; /* 40px */
+    --fs-5xl: 3rem;
+    --fs-6xl: 3.75rem;
+    --fs-7xl: 5rem;
+    --fs-8xl: 6rem;
+    --fs-9xl: 8rem;
+
+    /* Line heights */
+    --lh-xs: 1rem;
+    --lh-sm: 1.25rem;
+    --lh-base: 1.75rem;
+    --lh-lg: 2rem;
+    --lh-xl: 1.5rem;
+    --lh-2xl: 2.125rem;
+    --lh-3xl: 2.25rem;
+    --lh-4xl: 1.1;
+    --lh-5xl: 1.1;
+    --lh-6xl: 1.1;
+    --lh-7xl: 1.1;
+    --lh-8xl: 1.1;
+    --lh-9xl: 1.1;
+
+    /* Font families */
+    --ff-sans: 'Asap', sans-serif;
+    
+    /* Animations */
+    --delay: 0s;
+}

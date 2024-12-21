@@ -1,0 +1,43 @@
+html {
+    overflow-y: scroll;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+body {
+    max-width: 1727px;
+    margin-inline: auto;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.vh {
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+}
+
+.pretty-scrollbar {
+    &::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+        border-radius: 9999px;
+        background: var(--c-primary-150);
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        border-radius: 9999px;
+        background: var(--c-gray-500);
+    }
+}

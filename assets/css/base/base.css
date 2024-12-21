@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+
+    & *::selection {
+        background: var(--c-seance-700);
+        color: var(--c-white);
+    }
+    
+    & *:focus-visible {
+        outline-offset: 3px;
+    }
+}
