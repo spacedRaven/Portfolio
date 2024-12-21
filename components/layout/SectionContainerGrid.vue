@@ -1,0 +1,9 @@
+<template>
+    <LayoutSection>
+        <LayoutContainer>
+            <LayoutGrid>
+                <slot></slot>
+            </LayoutGrid>
+        </LayoutContainer>
+    </LayoutSection>
+</template>
