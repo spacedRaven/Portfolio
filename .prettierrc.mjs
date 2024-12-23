@@ -1,5 +1,5 @@
 export default {
-    printWidth: 120,
+    printWidth: 100,
     singleQuote: true,
     tabWidth: 4,
     singleAttributePerLine: true,

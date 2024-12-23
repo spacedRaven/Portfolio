@@ -19,7 +19,7 @@ useSeoMeta({});
 </script>
 
 <template>
-    <main class="grow">
+    <main>
         <slot />
     </main>
 </template>
